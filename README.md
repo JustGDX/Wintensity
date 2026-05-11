@@ -1,98 +1,130 @@
-# 🎮Wintensity
+# 🎮 Wintensity — Winrate Calculator & Grind Timer
 
-**Winrate Calculator & Grind Timer** is a lightweight, web-based tool built for gamers who want to track their performance and manage grind sessions with precision.
----
-Welcome to my project!  
-Click below to try it live:
+A lightweight, web-based tool built for gamers who want to **track winrate goals and manage grind sessions with precision**.
 
-👉[Try Wintensity](https://wintensity.netlify.app/)
----
-All-in-one solution for:
-- 📈 Calculating how many wins you need to reach your desired winrate
-- ⏱️ Timing your grinding sessions with customizable countdown controls
+Built with **HTML, CSS, and JavaScript** — fast, responsive, and fully offline-ready.
 
 ---
 
-## 🔧 Features
+## 🚀 Live Demo
+
+* 🌐 Try it here: **[https://wintensity.netlify.app/](https://wintensity.netlify.app/)**
+
+---
+
+## 🚀 Features
 
 ### 🧮 Winrate Calculator
-- Input your **current winrate**, **total matches played**, and **desired winrate**
-- Instantly see:
-  - 🔢 How many **consecutive wins** you need to reach your goal
-  - 📉 How your winrate would drop after a loss
-- 🔍 Real-time calculation with input validation
-- ✅ Clean, intuitive, and responsive UI
+
+* Input current winrate, total matches, and desired winrate
+* Instantly calculates:
+
+  * 🔢 Wins needed to reach your goal
+  * 📉 Winrate impact after a loss
+* Real-time calculation with input validation
+* Clean and responsive UI
+
+---
 
 ### ⏳ Grind Timer
-- Set a **custom timer** (hours, minutes, seconds)
-- Full timer controls: **Start**, **Pause**, **Stop**, and **Reset**
-- 🎯 Visual progress bar
-- 🔊 Sound alert when the timer ends
-- 🔁 Timer continues running in the background (even if tab is minimized)
+
+* Custom countdown timer (hours, minutes, seconds)
+* Full controls: Start, Pause, Stop, Reset
+* 📊 Visual progress bar
+* 🔊 Sound alert when timer ends
+* Runs even when tab is minimized
 
 ---
 
 ## 💻 Technical Highlights
 
-- ✅ **Single HTML file** – no installations or dependencies
-- 🖥️ **Pure HTML, CSS, and JavaScript**
-- 🎨 **Dark UI theme** with modern gradients and animations
-- 📱 **Fully responsive** on desktop, tablet, and mobile
-- 🔊 Uses **Web Audio API** for sound alerts
-- 🕒 Accurate timer tracking using JavaScript's `Date` object
+* Single-page web app (no dependencies)
+* Built with **pure HTML, CSS, JavaScript**
+* Modern dark UI with smooth animations
+* Fully responsive design (mobile + desktop)
+* Web Audio API for alert sounds
+* Accurate timer system using JavaScript Date handling
 
 ---
 
-## 🚀 Getting Started
+## 🧱 Project Files
 
-1. 📄 Copy the HTML source code from this repository
-2. 💾 Save it as `winrate-calculator.html`
-3. 🌐 Open it in any modern browser:
-   - Chrome
-   - Firefox
-   - Edge
-   - Safari
-   - Opera
+### `index.html`
 
-No installation or internet connection needed — works offline!
+* Main structure of the application
+* Contains Winrate Calculator and Grind Timer UI
 
----
+### `styles.css`
 
-## 📝 How to Use
+* Dark modern UI styling
+* Responsive layout, animations, and gradients
 
-### Winrate Calculator
-1. Enter:
-   - Your **desired winrate**
-   - Your **current winrate**
-   - Your **total number of matches**
-2. Click **Calculate**
-3. View:
-   - ✅ Wins needed to reach your goal
-   - ❌ Winrate drop if you lose next match
+### `script.js`
 
-### Grind Timer
-1. Set the **duration** (hours, minutes, seconds)
-2. Click **Start**
-3. Use:
-   - **Pause** to temporarily halt
-   - **Stop** to end session
-   - **Reset** to clear timer
-4. Watch the **progress bar** and listen for the audio alert
+* Winrate calculation logic
+* Timer system (start, pause, reset, countdown handling)
+* UI interactions and validation
 
 ---
 
-## 🌐 Browser Compatibility
+## 📝 Usage
 
-| Browser        | Supported |
-|----------------|-----------|
-| Chrome         | ✅        |
-| Firefox        | ✅        |
-| Edge           | ✅        |
-| Safari         | ✅        |
-| Opera          | ✅        |
+### For Users
+
+* Open the live demo link
+* Use the **Winrate Calculator** to compute required wins
+* Set the **Grind Timer** for focused gaming sessions
+* Track progress and improve consistency
+
+### For Developers
+
+#### 🎨 Customize Theme
+
+```css id="wntz2a"
+:root {
+  --primary-color: #6c5ce7;
+  --background-color: #0f0f1a;
+  --accent-color: #00d1ff;
+}
+```
+
+#### ⚙️ Modify Logic
+
+* Winrate system → `script.js`
+* Timer system → `script.js`
+* UI layout → `index.html`
+* Styling → `styles.css`
+
+#### 🔊 Audio Alert
+
+* Uses Web Audio API
+* Can be replaced with custom sound file
 
 ---
 
-**Happy Grinding!**  
-Stay productive and remember to take breaks! 🎮🧠
+## 🌐 Browser Support
 
+| Browser | Support |
+| ------- | ------- |
+| Chrome  | ✅ Full  |
+| Firefox | ✅ Full  |
+| Edge    | ✅ Full  |
+| Safari  | ✅ Full  |
+| Opera   | ✅ Full  |
+
+---
+
+## 📌 To-Do / Future Improvements
+
+* Add ranked game presets (LoL, Valorant, ML, etc.)
+* Save session history using localStorage
+* Add streak tracking system
+* Convert into installable PWA
+* Export winrate stats as CSV
+* Improve mobile UX further
+
+---
+
+## 👤 Author
+
+**GDX**
